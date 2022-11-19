@@ -13,7 +13,6 @@ namespace ReportDiscord
 {
     public class Configuration : IRocketPluginConfiguration
     {
-        public string LicenseKey;
         public string WebhookLink;
         public string WebhookName;
         public string WebhookAvatar;
@@ -27,7 +26,6 @@ namespace ReportDiscord
 
         public void LoadDefaults()
         {
-            LicenseKey = "043beceb-2d7a-41f1-8f92-5678ac358bf5";
             WebhookLink = "https://discord.com/api/webhooks/xxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
             WebhookAvatar = "https://i.imgur.com/7tjD5qr.png";
             WebhookMessage = "Report has been submitted <@&RoleId>. Spy of reported user has been attached.";
